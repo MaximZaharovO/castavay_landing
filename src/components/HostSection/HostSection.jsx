@@ -10,7 +10,7 @@ export default function HostSection() {
         <section className="HOST-wrapper">
             <div className="HOST-info">
                 <div className="HOST-info_forward">
-                    <Image src={ForwardImg} />
+                    <a href='/'><Image src={ForwardImg} /></a>
                 </div>
                 <div className="HOST-info_suttitle">
                     Meet your host

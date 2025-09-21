@@ -1,9 +1,9 @@
 import {ReactComponent as StarSVG} from 'images/star.svg'
 
-export default function Comment({rating}) {
+export default function Comment({comment}) {
     const maxRating = 5
     const ratingStars = Array.from(Array(maxRating).keys())
-        .map(x => x < rating)
+        .map(x => x < comment.rating)
 
     return (
         <div className="COMMENT-wrapper">
@@ -14,8 +14,8 @@ export default function Comment({rating}) {
                     ))}
                 </div>
             </div>
-            <div className="COMMENT-text">I can’t recommend this podcast enough</div>
-            <div className="COMMENT-author">Betty Lacey</div>
+            <div className="COMMENT-text">{comment.text}</div>
+            <div className="COMMENT-author">{comment.author}</div>
         </div>
     )
 }

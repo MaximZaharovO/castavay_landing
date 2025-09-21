@@ -3,25 +3,27 @@ import Header from '../components/Header/Header';
 import TitleBlock from '../components/TitleBlock/TitleBlock';
 import HostSection from 'components/HostSection/HostSection';
 import SubSection from 'components/SubSection/SubSection';
-import Comment from 'components/Comment';
 import Footer from 'components/Footer/Footer';
+import CommentsSection from 'components/CommentsSection/CommentsSection';
 
 function App() {
   return (
     <div className='APP'>
-      <Header/>
+      <div className='APP-wrapper'>
+        <Header/>
 
-      <TitleBlock />
+        <TitleBlock />
 
-      <LatestSection />
+        <LatestSection />
 
-      <HostSection />
+        <HostSection />
 
-      <SubSection />
+        <SubSection />
 
-      <Comment rating={4} />
+        <CommentsSection />
 
-      <Footer />
+        <Footer />
+      </div>
     </div>
   )
 }

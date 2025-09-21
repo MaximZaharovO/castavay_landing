@@ -63,6 +63,13 @@ button {
 
   font-size: 17px;
   line-height: 27px;
+
+  scroll-behavior: smooth;
+}
+
+.APP-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .APP-header_wrapper {
@@ -130,12 +137,12 @@ button {
   background: var(--black);
 
   display: flex;
-  flex: 1 1 auto;
   align-items: stretch;
 }
 
 .EPISODE-img {
   width: 389px;
+  min-width: 389px;
   max-height: 100%;
   height: auto;
 
@@ -158,6 +165,8 @@ button {
 .EPISODE-types_item {
   font-size: 18px;
   line-height: 27px;
+
+  border-radius: 6px;
 
   background: var(--light-black);
   padding: 0 16px;
@@ -192,6 +201,9 @@ button {
 
 .COMMENT-wrapper {
   padding: 50px;
+
+  background: var(--black);
+  border-radius: 32px;
 }
 
 .COMMENT-text {
@@ -203,6 +215,22 @@ button {
 .COMMENT-author {
   font-size: 24px;
   line-height: 28.8px;
+  color: var(--gray);
+}
+
+.COMMENTS-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+
+  padding: 100px 70px;
+}
+
+.COMMENTS-wrapper > div {
+  flex: 0 0 32%;
+  margin-bottom: 16px;
+  margin-right: 16px;
 }
 
 /* COMMENT END */

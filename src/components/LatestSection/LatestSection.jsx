@@ -1,5 +1,5 @@
-import Episode from 'components/Episode'
 import './latest.css'
+import EpisodeList from 'components/EpisodeList'
 
 export default function LatestSection() {
     return (
@@ -9,11 +9,11 @@ export default function LatestSection() {
                     Latest episodes
                 </h1>
                 <div className='BUTTON LATEST-header_view_all'>
-                    View all episodes
+                    <a href='/'>View all episodes</a>
                 </div>
             </div>
 
-            <Episode />
+            <EpisodeList />
         </section>
     )
 }
