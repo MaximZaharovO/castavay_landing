@@ -1,0 +1,21 @@
+.FOOTER-wrapper {
+    padding: 50px 120px;
+
+    display: flex;
+}
+
+.FOOTER-logo_block {
+    width: 30%;
+}
+
+.FOOTER-logo_block__socials {
+    margin-top: 24px;
+}
+
+.FOOTER-nav {
+    width: 200px;
+    padding: 0 20px;
+
+    font-size: 17px;
+    line-height: 27px;
+}

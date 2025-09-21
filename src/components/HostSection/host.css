@@ -1,0 +1,59 @@
+.HOST-wrapper {
+    padding: 100px 50px;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.HOST-info {
+    max-width: 590px;
+}
+
+.HOST-info_forward {
+    background: var(--blue);
+    border-radius: 50%;
+
+    width: 112px;
+    height: 112px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.HOST-info_forward > div {
+    width: 71px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HOST-info_suttitle {
+    font-size: 18px;
+    color: var(--blue)
+}
+
+.HOST-info_title {
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+
+    margin-bottom: 28px;
+}
+
+.HOST-info_description {
+    font-size: 22px;
+    line-height: 33px;
+    color: var(--gray);
+
+    margin-bottom: 33px;
+}
+
+.HOST-info_description:last-child {
+    margin: 0;
+}

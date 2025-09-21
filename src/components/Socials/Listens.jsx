@@ -5,14 +5,14 @@ import {ReactComponent as SOCIAL4SVG} from '../../images/socials/Socials4.svg'
 import {ReactComponent as SOCIAL5SVG} from '../../images/socials/Socials5.svg'
 import './socials.css'
 
-export function Socials() {
+export function Listens() {
     return (
-        <div className='socials__icons'>
-            <a href='/' className='socials__icons_item'><SOCIAL1SVG/></a>
-            <a href='/' className='socials__icons_item'><SOCIAL2SVG/></a>
-            <a href='/' className='socials__icons_item'><SOCIAL3SVG/></a>
-            <a href='/' className='socials__icons_item'><SOCIAL4SVG/></a>
-            <a href='/' className='socials__icons_item'><SOCIAL5SVG/></a>
+        <div className='listens__icons'>
+            <a href='/' className='listens__icons_item'><SOCIAL1SVG/></a>
+            <a href='/' className='listens__icons_item'><SOCIAL2SVG/></a>
+            <a href='/' className='listens__icons_item'><SOCIAL3SVG/></a>
+            <a href='/' className='listens__icons_item'><SOCIAL4SVG/></a>
+            <a href='/' className='listens__icons_item'><SOCIAL5SVG/></a>
         </div>
     )
 }

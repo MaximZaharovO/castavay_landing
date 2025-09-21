@@ -1,4 +1,4 @@
-import { Socials } from "../Socials/Social";
+import { Listens } from "../Socials/Listens";
 
 export default function TitleSocials() {
     return (
@@ -6,7 +6,7 @@ export default function TitleSocials() {
             <div className='TITLE-text_socials__text'>
                 Listen on
             </div>
-            <Socials/>
+            <Listens/>
         </div>
     )
 }

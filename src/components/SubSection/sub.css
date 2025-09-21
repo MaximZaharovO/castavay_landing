@@ -1,0 +1,58 @@
+.SUB-wrapper {
+    padding: 100px 50px;
+}
+
+.SUB-container {
+    background: var(--black);
+
+    border-radius: 32px;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 60px;
+
+    flex: 45% 0 0;
+}
+
+.SUB-container > div {
+    width: 100%;
+}
+
+.SUB-title-sut {
+    font-size: 18px;
+    line-height: 27px;
+
+    color: var(--blue);
+}
+
+.SUB-title-main {
+    font-size: 72px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+}
+
+.SUB-form {
+    margin-left: 76px;
+}
+
+.SUB-form_input:first-child {
+    margin: 0;
+}
+
+.SUB-form_input {
+    display: block;
+    width: 100%;
+    padding: 26px 19px;
+
+    font-size: 24px;
+    line-height: 28.8px;
+
+    margin-top: 20px;
+}
+
+.SUB-form_submit {
+    margin-top: 29px;
+
+    padding: 9px 15px 10px;
+}
