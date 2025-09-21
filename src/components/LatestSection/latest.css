@@ -1,0 +1,14 @@
+.LATEST-wrapper {
+  padding: 100px 20px 160px;
+}
+
+.LATEST-header {
+  padding: 0 50px 40px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.LATEST-header_view_all {
+  margin: 24px 0;
+}

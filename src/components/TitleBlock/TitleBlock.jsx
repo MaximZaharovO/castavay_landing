@@ -1,8 +1,10 @@
-import TITLEIMG from '../../images/title.png'
-import LRCORNERIMG from '../../images/lr-corner.png'
+import TITLEIMG from 'images/title.png'
+import LRCORNERIMG from 'images/lr-corner.png'
+import Image from 'components/Image'
 
-import { Socials } from '../Socials/Social'
-import Image from '../Image'
+import './title-block.css'
+import TitleText from './TitleText'
+import TitleSocials from './TitleSocials'
 
 export default function TitleBlock() {
     return  (
@@ -12,17 +14,8 @@ export default function TitleBlock() {
                 <Image src={TITLEIMG} className='TITLE-img' alt='post' />
             </div>
             <div className='TITLE-text_wrapper'>
-            <div className='TITLE-text_main'>
-                <span>Take your podcast to the </span>
-                <span className='TITLE-text_underlined'>next</span>
-                <b> level</b>
-            </div>
-            <div className='TITLE-text_socials'>
-                <div className='TITLE-text_socials__text'>
-                Listen on
-                </div>
-                <Socials/>
-            </div>
+                <TitleText />
+                <TitleSocials />
             </div>
         </div>
     )
