@@ -1,0 +1,23 @@
+.socials__icons {
+    display: flex;
+
+    padding: 0;
+    line-height: 0;
+}
+
+.socials__icons_item {
+    margin-right: 17px;
+}
+
+.socials__icons_item:last-child {
+    margin: 0;
+}
+
+.socials__icons_item {
+    height: 32px;
+    width: 32px;
+}
+
+.socials__icons_item > svg {
+    width: 100%;
+}
