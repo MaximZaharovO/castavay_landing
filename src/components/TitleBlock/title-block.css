@@ -62,3 +62,12 @@
   margin-bottom: 16px;
   margin-top: 74px;
 }
+
+@media (max-width: 1024px) {
+  .TITLE-text_wrapper {
+    padding: 55px;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 3.2px;
+  }
+}

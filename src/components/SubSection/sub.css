@@ -56,3 +56,15 @@
 
     padding: 9px 15px 10px;
 }
+
+@media (max-width: 1024px) {
+  .SUB-container {
+    flex-direction: column;
+  }
+
+  .SUB-form {
+    margin-left: 0;
+
+    margin-top: 24px;
+  }
+}

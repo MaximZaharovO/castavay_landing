@@ -53,6 +53,8 @@ button {
     
     bottom: 0;
     left: 0;
+
+    width: 147px;
 }
 
 /* APP */
@@ -95,6 +97,12 @@ button {
 
 .APP-header_nav.active {
   color: var(--blue);
+}
+
+@media (max-width: 768px) {
+  .APP-header_nav + .APP-header_nav {
+    padding-left: 20px;
+  }
 }
 
 /* APP END */
@@ -195,6 +203,70 @@ button {
   color: var(--gray);
 }
 
+@media (max-width: 1024px) {
+  .EPISODE-img {
+    width: 240px;
+    min-width: 240px;
+    margin-right: 30px;
+}
+
+  .EPISODE-types {
+    margin-bottom: 25px;
+  }
+
+  .EPISODE-title {
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 2.56px;
+
+    margin-bottom: 28px;
+}
+
+  .EPISODE-subtitle {
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 18px;
+    color: var(--gray);
+  }
+}
+
+@media (max-width: 768px) {
+  .EPISODE-wrapper {
+    margin: 0 50px 60px;
+    padding: 40px;
+    border-radius: 32px;
+
+    background: var(--black);
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .EPISODE-img {
+    display: none;
+}
+
+  .EPISODE-types {
+    margin-bottom: 25px;
+  }
+
+  .EPISODE-title {
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 2.56px;
+
+    margin-bottom: 28px;
+}
+
+  .EPISODE-subtitle {
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 18px;
+    color: var(--gray);
+  }
+}
+
 /* EPISODE END */
 
 /* COMMENT */
@@ -222,13 +294,17 @@ button {
   display: flex;
   flex-wrap: wrap;
 
-  justify-content: space-between;
+  justify-content: center;
 
   padding: 100px 70px;
 }
 
 .COMMENTS-wrapper > div {
-  flex: 0 0 32%;
+  flex: 0 0 410px;
+  max-width: 410px;
+
+  overflow-x: hidden;
+
   margin-bottom: 16px;
   margin-right: 16px;
 }

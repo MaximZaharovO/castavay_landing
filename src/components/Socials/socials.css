@@ -47,3 +47,9 @@
 .listens__icons_item > svg {
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .listens__icons_item {
+        margin-right: 10px;
+    }
+}

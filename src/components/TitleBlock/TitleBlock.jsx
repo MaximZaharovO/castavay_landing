@@ -1,4 +1,4 @@
-import TITLEIMG from 'images/title.png'
+import TITLEIMG from 'images/TITLE.png'
 import LRCORNERIMG from 'images/lr-corner.png'
 import Image from 'components/Image'
 
