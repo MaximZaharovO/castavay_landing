@@ -68,3 +68,20 @@
     margin-top: 24px;
   }
 }
+
+@media (max-width: 768px) {
+    .SUB-wrapper {
+        padding: 40px 20px;
+    }
+
+    .SUB-container {
+        padding: 30px;
+    }
+
+  .SUB-title-main {
+        font-size: 32px;
+        line-height: 35px;
+        letter-spacing: 2.88px;
+    }
+    
+} 

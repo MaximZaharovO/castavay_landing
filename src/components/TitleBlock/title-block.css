@@ -53,14 +53,15 @@
 
 .TITLE-text_socials {
   padding-left: 22px;
+
+  margin-top: 74px;
 }
 
 .TITLE-text_socials__text {
+  margin-bottom: 16px;
+
   font-size: 15px;
   line-height: 24px;
-
-  margin-bottom: 16px;
-  margin-top: 74px;
 }
 
 @media (max-width: 1024px) {
@@ -69,5 +70,26 @@
     font-size: 42px;
     line-height: 50px;
     letter-spacing: 3.2px;
+  }
+}
+
+@media (max-width: 768px) {
+  .TITLE-wrapper {
+    flex-direction: column;
+  }
+
+  .TITLE-img_wrapper {
+    padding: 0;
+  }
+  
+  .TITLE-text_wrapper {
+    padding: 35px;
+
+    line-height: 36px;
+    font-size: 40px;
+  }
+
+  .TITLE-text_socials {
+    margin-top: 24px;
   }
 }

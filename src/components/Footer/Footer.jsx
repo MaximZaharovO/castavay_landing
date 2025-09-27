@@ -13,7 +13,8 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="FOOTER-nav">
+            <div className="FOOTER-nav_wrapper">
+                <div className="FOOTER-nav">
                 <nav className="FOOTER-nav_main__bar">
                     <div><a href="/">Home</a></div>
                     <div><a href="/">About</a></div>
@@ -31,6 +32,7 @@ export default function Footer() {
                     <div><a href="/">Powered by Webflow</a></div>
                     <div><a href="/">Licenses</a></div>
                 </nav>
+            </div>
             </div>
 
             <div className="Footer-socials">
