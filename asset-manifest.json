@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/castavay_landing/static/css/main.34bfe2ac.css",
-    "main.js": "/castavay_landing/static/js/main.aff57538.js",
+    "main.css": "/castavay_landing/static/css/main.1e776390.css",
+    "main.js": "/castavay_landing/static/js/main.8a06a5ed.js",
     "static/media/host.png": "/castavay_landing/static/media/host.5c75cba48b1b77e71fc6.png",
     "static/media/TITLE.png": "/castavay_landing/static/media/TITLE.ddfab231ecbc562595c1.png",
     "static/media/preview3.png": "/castavay_landing/static/media/preview3.0765947b48cc4858bab8.png",
@@ -18,11 +18,11 @@
     "static/media/underline.svg": "/castavay_landing/static/media/underline.3e825aa53d728ae73e9c.svg",
     "static/media/star.svg": "/castavay_landing/static/media/star.fe23efdc0db92c4402d25aab539db119.svg",
     "static/media/facebook.svg": "/castavay_landing/static/media/facebook.5bbd9bf5060921933a4f81f08b356009.svg",
-    "main.34bfe2ac.css.map": "/castavay_landing/static/css/main.34bfe2ac.css.map",
-    "main.aff57538.js.map": "/castavay_landing/static/js/main.aff57538.js.map"
+    "main.1e776390.css.map": "/castavay_landing/static/css/main.1e776390.css.map",
+    "main.8a06a5ed.js.map": "/castavay_landing/static/js/main.8a06a5ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.34bfe2ac.css",
-    "static/js/main.aff57538.js"
+    "static/css/main.1e776390.css",
+    "static/js/main.8a06a5ed.js"
   ]
 }
