@@ -441,7 +441,7 @@ button {
 }
 
 .COMMENTS-wrapper > div {
-  max-width: 300px;
+  max-width: 350px;
 
   overflow-x: hidden;
 
@@ -454,8 +454,8 @@ button {
     padding: 30px 20px;
   }
 
-  .COMMENTS-wrapper > .COMMENT-wrapper {
-    margin-right: 0;
+  .COMMENTS-wrapper > div {
+    max-width: 300px;
   }
 }
 

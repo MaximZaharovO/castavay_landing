@@ -12,9 +12,9 @@ import ProjectLink from 'components/ProjectLink/ProjectLink';
 function App() {
   return (
     <div className='APP'>
-      <div className='APP-wrapper'>
-        <Header/>
+      <Header/>
 
+      <div className='APP-wrapper'>
         <Routes >
             <Route path={routeList.HOME} element={<MainPage />} />
             <Route path={routeList.CONTACT} element={<ContactPage />} />
@@ -22,11 +22,11 @@ function App() {
             <Route path={routeList.EPISODES} element={<EpisodesPage />} />
             <Route path={routeList.ONE_EPISODE()} element={<OneEpisodePage />} />
           </Routes>
-
-        <Footer />
-
-        <ProjectLink />
       </div>
+
+      <Footer />
+
+      <ProjectLink />
     </div>
   )
 }
