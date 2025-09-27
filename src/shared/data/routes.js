@@ -1,7 +1,7 @@
 const routeList = {
     HOME: '/',
     EPISODES: '/episodes',
-    ONE_EPISODE: (id) => !!id ? `/episodes/${id}` : "/episodes/:id",
+    ONE_EPISODE: (episode) => !!episode ? `/episodes/${episode}` : "/episodes/:episode",
     ABOUT: '/about',
     CONTACT: '/contact',
     HOST: "/host"

@@ -1,7 +1,7 @@
 import Logo from "components/Logo";
 import HeaderLink from "./HeaderLink";
 import { useState } from "react";
-import routeList from "shared/routes";
+import routeList from "shared/data/routes";
 
 export default function Header() {
   const [hamActive, setHamActive] = useState(false)

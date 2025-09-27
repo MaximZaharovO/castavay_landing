@@ -1,5 +1,7 @@
+import PageWrapper from "components/PageWrapper";
+
 export default function AboutPage() {
     return (
-        <div>About</div>
+        <PageWrapper>About</PageWrapper>
     );
 }

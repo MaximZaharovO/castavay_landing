@@ -1,10 +1,9 @@
-import EPISODES from "shared/episodes";
-import Episode from "./Episode";
+import EpisodeCard from "./EpisodeCard";
 
-export default function EpisodeList() {
+export default function EpisodeList({episodes}) {
     return (
         <div>
-            {EPISODES.map(episode => <Episode key={episode.episode} episode={episode}/>)}
+            {episodes.map(episode => <EpisodeCard key={episode.episode} episode={episode}/>)}
         </div>
     )
 }

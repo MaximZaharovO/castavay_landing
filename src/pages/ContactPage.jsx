@@ -1,5 +1,7 @@
+import PageWrapper from "components/PageWrapper";
+
 export default function ContactPage() {
     return (
-        <div>Contact</div>
+        <PageWrapper>Contact</PageWrapper>
     );
 }

@@ -1,5 +1,6 @@
+import PageWrapper from "components/PageWrapper";
 export default function HostPage() {
     return (
-        <div>Host</div>
+        <PageWrapper>Host</PageWrapper>
     );
 }

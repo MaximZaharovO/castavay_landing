@@ -170,6 +170,13 @@ button {
     padding: 20px;
     margin: 0;
   }
+  .APP-header_nav:last-child {
+    padding: 20px;
+  }
+  .APP-header_nav:first-child {
+    padding: 20px;
+  }
+  
 
   .burger {
     position: relative;
@@ -250,12 +257,14 @@ button {
 
 /* EPISODE */
 
-.EPISODE-wrapper {
-  margin: 0 50px 60px;
+.EPISODE-card_wrapper {
   padding: 40px;
-  border-radius: 32px;
-
   background: var(--black);
+  margin: 0 50px 60px;
+}
+
+.EPISODE-wrapper {
+  border-radius: 32px;
 
   display: flex;
   align-items: stretch;
@@ -283,13 +292,19 @@ button {
   margin-right: 12px;
 }
 
+.EPISODE-card_wrapper .EPISODE-types_item {
+  color: #fff;
+  background: var(--light-black);
+}
+
 .EPISODE-types_item {
   font-size: 18px;
   line-height: 27px;
 
   border-radius: 6px;
 
-  background: var(--light-black);
+  background: var(--gray);
+  color: var(--black);
   padding: 0 16px;
   width: max-content;
 }
@@ -354,10 +369,7 @@ button {
 
   .EPISODE-wrapper {
     margin: 0 0 60px;
-    padding: 40px;
     border-radius: 32px;
-
-    background: var(--black);
 
     display: flex;
     flex-direction: column;

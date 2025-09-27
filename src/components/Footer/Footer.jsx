@@ -3,7 +3,7 @@ import { Listens } from "components/Socials/Listens";
 import { Socials } from "components/Socials/Socials";
 import './footer.css'
 import { Link } from "react-router";
-import routeList from "shared/routes";
+import routeList from "shared/data/routes";
 
 export default function Footer() {
     return (

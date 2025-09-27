@@ -1,7 +1,7 @@
 import Image from 'components/Image'
 import ForwardImg from 'images/forward.png'
 import HostImg from 'images/host.png'
-import routeList from "shared/routes";
+import routeList from "shared/data/routes";
 
 
 import './host.css'

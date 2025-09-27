@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import routeList from "shared/routes";
+import routeList from "shared/data/routes";
 
 export default function Logo() {
   return (

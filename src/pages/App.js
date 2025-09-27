@@ -6,7 +6,7 @@ import ContactPage from './ContactPage';
 import AboutPage from './AboutPage';
 import EpisodesPage from './EpisodesPage';
 import HostPage from './HostPage';
-import routeList from 'shared/routes';
+import routeList from 'shared/data/routes';
 import OneEpisodePage from './OneEpisodePage';
 
 function App() {
