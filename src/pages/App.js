@@ -5,7 +5,6 @@ import MainPage from './MainPage';
 import ContactPage from './ContactPage';
 import AboutPage from './AboutPage';
 import EpisodesPage from './EpisodesPage';
-import HostPage from './HostPage';
 import routeList from 'shared/data/routes';
 import OneEpisodePage from './OneEpisodePage';
 
@@ -20,7 +19,6 @@ function App() {
             <Route path={routeList.CONTACT} element={<ContactPage />} />
             <Route path={routeList.ABOUT} element={<AboutPage />} />
             <Route path={routeList.EPISODES} element={<EpisodesPage />} />
-            <Route path={routeList.HOST} element={<HostPage />} />
             <Route path={routeList.ONE_EPISODE()} element={<OneEpisodePage />} />
           </Routes>
 

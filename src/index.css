@@ -64,18 +64,18 @@ button {
 
 
 .lb-corner_container {
-    position: relative;
+  position: relative;
 
-    padding: 0 0 26px 38px;
+  padding: 0 0 26px 38px;
 }
 
 .lb-corner {
-    position: absolute;
-    
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  
+  bottom: 0;
+  left: 0;
 
-    width: 147px;
+  width: 147px;
 }
 
 /* APP */
@@ -367,8 +367,13 @@ button {
     width: 100px;
   }
 
-  .EPISODE-wrapper {
+  .EPISODE-card_wrapper {
+    padding: 40px;
+    background: var(--black);
     margin: 0 0 60px;
+  }
+
+  .EPISODE-wrapper {
     border-radius: 32px;
 
     display: flex;
@@ -385,8 +390,8 @@ button {
   }
 
   .EPISODE-title {
-    font-size: 48px;
-    line-height: 50px;
+    font-size: 36px;
+    line-height: 40px;
     letter-spacing: 2.56px;
 
     margin-bottom: 28px;
@@ -443,6 +448,10 @@ button {
 }
 
 @media (max-width: 768px) {
+  .COMMENTS-wrapper {
+    padding: 30px 20px;
+  }
+
   .COMMENTS-wrapper > .COMMENT-wrapper {
     margin-right: 0;
   }

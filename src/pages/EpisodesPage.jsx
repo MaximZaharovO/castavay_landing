@@ -7,6 +7,8 @@ export default function EpisodesPage() {
     const list = getSortedEpisodesList(0, 0, SORT.ASC)
 
     return (
-        <PageWrapper><EpisodeList episodes={list}/></PageWrapper>
+        <PageWrapper>
+            <EpisodeList episodes={list}/>
+        </PageWrapper>
     );
 }

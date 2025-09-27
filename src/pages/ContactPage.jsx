@@ -2,6 +2,8 @@ import PageWrapper from "components/PageWrapper";
 
 export default function ContactPage() {
     return (
-        <PageWrapper>Contact</PageWrapper>
+        <PageWrapper>
+            <h1>Contact</h1>
+        </PageWrapper>
     );
 }
