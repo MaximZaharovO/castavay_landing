@@ -1,16 +1,18 @@
 import Image from 'components/Image'
 import ForwardImg from 'images/forward.png'
 import HostImg from 'images/host.png'
+import routeList from "shared/routes";
 
 
 import './host.css'
+import { Link } from 'react-router'
 
 export default function HostSection() {
     return (
         <section className="HOST-wrapper">
             <div className="HOST-info">
                 <div className="HOST-info_forward">
-                    <a href='/'><Image src={ForwardImg} /></a>
+                    <Link to={routeList.HOME}><Image src={ForwardImg} /></Link>
                 </div>
                 <div className="HOST-info_suttitle">
                     Meet your host

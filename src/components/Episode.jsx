@@ -1,3 +1,6 @@
+import { Link } from "react-router";
+import routeList from "shared/routes";
+
 export default function Episode({episode}) {
     return (
         <div className="EPISODE-wrapper">
@@ -10,7 +13,7 @@ export default function Episode({episode}) {
                 <h2 className="EPISODE-title">{episode.title}</h2>
                 <p className="EPISODE-subtitle">{episode.description}</p>
                 <div className="BUTTON">
-                    <a href='/'>View Episode Details</a>
+                    <Link to={routeList.ONE_EPISODE(1)}>View Episode Details</Link>
                 </div>
             </div>
         </div>

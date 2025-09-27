@@ -1,9 +1,12 @@
+import { Link } from "react-router";
+import routeList from "shared/routes";
+
 export default function Logo() {
   return (
     <div className='APP-header_logo'>
-      <a href="/">
+      <Link to={routeList.HOME}>
         Castaway
-      </a>
+      </Link>
     </div>
   )
 }

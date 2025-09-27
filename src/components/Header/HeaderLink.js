@@ -1,10 +1,12 @@
-export default function HeaderLink({ children, isActive }) {
+import { NavLink } from "react-router";
+
+export default function HeaderLink({ children, to }) {
   return (
-    <a 
-      className={`APP-header_nav ${isActive ? 'active' : ''}`} 
-      href="/"
+    <NavLink 
+      className={`APP-header_nav`} 
+      to={to}
       >
       {children}
-    </a>
+    </NavLink>
   );
 }

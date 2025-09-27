@@ -2,6 +2,8 @@ import Logo from "components/Logo";
 import { Listens } from "components/Socials/Listens";
 import { Socials } from "components/Socials/Socials";
 import './footer.css'
+import { Link } from "react-router";
+import routeList from "shared/routes";
 
 export default function Footer() {
     return (
@@ -16,10 +18,10 @@ export default function Footer() {
             <div className="FOOTER-nav_wrapper">
                 <div className="FOOTER-nav">
                 <nav className="FOOTER-nav_main__bar">
-                    <div><a href="/">Home</a></div>
-                    <div><a href="/">About</a></div>
-                    <div><a href="/">Episodes</a></div>
-                    <div><a href="/">Contact</a></div>
+                    <div><Link to={routeList.HOME}>Home</Link></div>
+                    <div><Link to={routeList.ABOUT}>About</Link></div>
+                    <div><Link to={routeList.EPISODES}>Episodes</Link></div>
+                    <div><Link to={routeList.CONTACT}>Contact</Link></div>
                 </nav>
             </div>
 

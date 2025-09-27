@@ -1,6 +1,7 @@
 import Logo from "components/Logo";
 import HeaderLink from "./HeaderLink";
 import { useState } from "react";
+import routeList from "shared/routes";
 
 export default function Header() {
   const [hamActive, setHamActive] = useState(false)
@@ -12,10 +13,10 @@ export default function Header() {
       <Logo/>
       <div onClick={() => setHamActive(prev => !prev)} class={"burger" + activeClass} />
       <nav className={"APP-header_nav_bar" + activeClass}>
-        <HeaderLink isActive={true}>Home</HeaderLink>
-        <HeaderLink>Episodes</HeaderLink>
-        <HeaderLink>About</HeaderLink>
-        <HeaderLink>Contact</HeaderLink>
+        <HeaderLink to={routeList.HOME} isActive={true}>Home</HeaderLink>
+        <HeaderLink to={routeList.EPISODES}>Episodes</HeaderLink>
+        <HeaderLink to={routeList.ABOUT}>About</HeaderLink>
+        <HeaderLink to={routeList.CONTACT}>Contact</HeaderLink>
       </nav>
     </header>
   );

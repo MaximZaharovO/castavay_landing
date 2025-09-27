@@ -1,5 +1,7 @@
+import { Link } from 'react-router'
 import './latest.css'
 import EpisodeList from 'components/EpisodeList'
+import routeList from 'shared/routes'
 
 export default function LatestSection() {
     return (
@@ -9,7 +11,7 @@ export default function LatestSection() {
                     Latest episodes
                 </h1>
                 <div className='BUTTON LATEST-header_view_all'>
-                    <a href='/'>View all episodes</a>
+                    <Link to={routeList.EPISODES}>View all episodes</Link>
                 </div>
             </div>
 
