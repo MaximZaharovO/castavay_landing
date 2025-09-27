@@ -7,6 +7,7 @@ import AboutPage from './AboutPage';
 import EpisodesPage from './EpisodesPage';
 import routeList from 'shared/data/routes';
 import OneEpisodePage from './OneEpisodePage';
+import ProjectLink from 'components/ProjectLink/ProjectLink';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           </Routes>
 
         <Footer />
+
+        <ProjectLink />
       </div>
     </div>
   )

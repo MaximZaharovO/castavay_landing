@@ -1,0 +1,35 @@
+:root {
+    --bg: #131313;
+    --height: 100px;
+}
+
+body {
+    padding-bottom: var(--height);
+}
+
+.project-link {
+  position: fixed;
+  bottom: 0;
+
+  width: 100%;
+
+  height: var(--height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: var(--bg);
+
+  font-size: 18px;
+  line-height: 24px;
+
+  text-align: center;
+}
+
+.project-link a {
+  text-decoration: underline;
+}
+
+.project-link a:hover {
+  text-decoration: none;
+}
