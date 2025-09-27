@@ -18,7 +18,21 @@ html, body {
 }
 body {
   font-family: var(--base-font), sans-serif;
+}
 
+.APP-wrapper {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  min-height: 50px;
+}
+
+footer {
+  min-height: 50px;
 }
 
 a {
@@ -76,6 +90,8 @@ button {
   width: 100%;
 
   scroll-behavior: smooth;
+
+  min-height: 100vh;
 }
 
 .APP-wrapper {
@@ -103,11 +119,15 @@ button {
 }
 
 .APP-header_nav {
-  padding-right: 40px;
+  padding: 0 20px;
 }
 
 .APP-header_nav:last-child {
   padding-right: 0;
+}
+
+.APP-header_nav:first-child {
+  padding-left: 0;
 }
 
 .APP-header_nav.active {

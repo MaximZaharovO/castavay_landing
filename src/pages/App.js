@@ -5,6 +5,9 @@ import MainPage from './MainPage';
 import ContactPage from './ContactPage';
 import AboutPage from './AboutPage';
 import EpisodesPage from './EpisodesPage';
+import HostPage from './HostPage';
+import routeList from 'shared/routes';
+import OneEpisodePage from './OneEpisodePage';
 
 function App() {
   return (
@@ -13,11 +16,13 @@ function App() {
         <Header/>
 
         <Routes >
-          <Route path='/' element={<MainPage />} />
-          <Route path='/contact' element={<ContactPage />} />
-          <Route path='/about' element={<AboutPage />} />
-          <Route path='/episodes' element={<EpisodesPage />} />
-        </Routes>
+            <Route path={routeList.HOME} element={<MainPage />} />
+            <Route path={routeList.CONTACT} element={<ContactPage />} />
+            <Route path={routeList.ABOUT} element={<AboutPage />} />
+            <Route path={routeList.EPISODES} element={<EpisodesPage />} />
+            <Route path={routeList.HOST} element={<HostPage />} />
+            <Route path={routeList.ONE_EPISODE()} element={<OneEpisodePage />} />
+          </Routes>
 
         <Footer />
       </div>

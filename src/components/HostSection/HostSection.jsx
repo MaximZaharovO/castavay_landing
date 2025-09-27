@@ -12,7 +12,7 @@ export default function HostSection() {
         <section className="HOST-wrapper">
             <div className="HOST-info">
                 <div className="HOST-info_forward">
-                    <Link to={routeList.HOME}><Image src={ForwardImg} /></Link>
+                    <Link to={routeList.HOST}><Image src={ForwardImg} /></Link>
                 </div>
                 <div className="HOST-info_suttitle">
                     Meet your host

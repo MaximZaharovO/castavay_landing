@@ -10,9 +10,12 @@ export default function LatestSection() {
                 <h1 className='LATEST-header_title'>
                     Latest episodes
                 </h1>
-                <div className='BUTTON LATEST-header_view_all'>
-                    <Link to={routeList.EPISODES}>View all episodes</Link>
-                </div>
+                <Link to={routeList.EPISODES}>
+                    <div className='BUTTON LATEST-header_view_all'>
+                        View all episodes
+                    </div>
+                </Link>
+                
             </div>
 
             <EpisodeList />
