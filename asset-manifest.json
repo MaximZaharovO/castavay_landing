@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/castavay_landing/static/css/main.34bfe2ac.css",
+    "main.js": "/castavay_landing/static/js/main.8dcf658f.js",
+    "static/media/host.png": "/castavay_landing/static/media/host.5c75cba48b1b77e71fc6.png",
+    "static/media/TITLE.png": "/castavay_landing/static/media/TITLE.ddfab231ecbc562595c1.png",
+    "static/media/preview3.png": "/castavay_landing/static/media/preview3.0765947b48cc4858bab8.png",
+    "static/media/preview1.png": "/castavay_landing/static/media/preview1.46750ef13432bfc7c042.png",
+    "static/media/preview2.png": "/castavay_landing/static/media/preview2.0506f6176c1271f5f0ed.png",
+    "static/media/Socials3.svg": "/castavay_landing/static/media/Socials3.421aec4a160d4dea179acf9869788576.svg",
+    "static/media/Socials4.svg": "/castavay_landing/static/media/Socials4.db9ab229757c605b464ca8e691317b67.svg",
+    "static/media/Socials5.svg": "/castavay_landing/static/media/Socials5.484fee2edae0d294413019852d408323.svg",
+    "static/media/Socials1.svg": "/castavay_landing/static/media/Socials1.3ef81ef830d91736a63c85d7bb5b6bb9.svg",
+    "static/media/Socials2.svg": "/castavay_landing/static/media/Socials2.65c85ad7ccd6392f28295839c0c65c1b.svg",
+    "static/media/instagram.svg": "/castavay_landing/static/media/instagram.3cd3a187efd51f2afb97bb6b17fd8be2.svg",
+    "static/media/twitter.svg": "/castavay_landing/static/media/twitter.045804c3a190a5016656feda65ae2179.svg",
+    "index.html": "/castavay_landing/index.html",
+    "static/media/underline.svg": "/castavay_landing/static/media/underline.3e825aa53d728ae73e9c.svg",
+    "static/media/star.svg": "/castavay_landing/static/media/star.fe23efdc0db92c4402d25aab539db119.svg",
+    "static/media/facebook.svg": "/castavay_landing/static/media/facebook.5bbd9bf5060921933a4f81f08b356009.svg",
+    "main.34bfe2ac.css.map": "/castavay_landing/static/css/main.34bfe2ac.css.map",
+    "main.8dcf658f.js.map": "/castavay_landing/static/js/main.8dcf658f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34bfe2ac.css",
+    "static/js/main.8dcf658f.js"
+  ]
+}
