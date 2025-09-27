@@ -68,7 +68,16 @@
         margin: 0 auto;
     }
 
+    .HOST-info a {
+        order: 1;
+
+        margin: 24px 0;
+    }
+
     .HOST-info {
         margin-bottom: 25px;
+
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -152,6 +152,7 @@ button {
 
     position: absolute;
     right: 0;
+    top: 0;
 
     transform: translateX(100%);
 
@@ -440,8 +441,7 @@ button {
 }
 
 .COMMENTS-wrapper > div {
-  flex: 0 0 350px;
-  max-width: 350px;
+  max-width: 300px;
 
   overflow-x: hidden;
 
