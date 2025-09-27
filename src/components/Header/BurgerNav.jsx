@@ -14,10 +14,10 @@ export default function BurgerNav() {
     return (<div ref={navRef}>
         <div onClick={() => setHamActive(prev => !prev)} class={"burger" + activeClass} />
         <nav className={"APP-header_nav_bar" + activeClass}>
-            <HeaderLink to={routeList.HOME} isActive={true}>Home</HeaderLink>
-            <HeaderLink to={routeList.EPISODES}>Episodes</HeaderLink>
-            <HeaderLink to={routeList.ABOUT}>About</HeaderLink>
-            <HeaderLink to={routeList.CONTACT}>Contact</HeaderLink>
+            <HeaderLink onClick={() => setHamActive(false)} to={routeList.HOME} isActive={true}>Home</HeaderLink>
+            <HeaderLink onClick={() => setHamActive(false)} to={routeList.EPISODES}>Episodes</HeaderLink>
+            <HeaderLink onClick={() => setHamActive(false)} to={routeList.ABOUT}>About</HeaderLink>
+            <HeaderLink onClick={() => setHamActive(false)} to={routeList.CONTACT}>Contact</HeaderLink>
         </nav>
     </div>)
 }
